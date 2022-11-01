@@ -1,8 +1,4 @@
 from tkinter import *
-from jikanpy import Jikan
-import requests
-import json
-jikan = Jikan()
 
 
 animes = [['Kaguya-sama', 'Comédia', 'Seinen', 'Curta'],
@@ -15,7 +11,7 @@ def btn_clicked():
 
 window = Tk()
 
-window.title("Decididor de Animes")
+window.title("Anime Choser")
 
 estilos = [
     'Ação',
@@ -185,6 +181,7 @@ def display_selected():
         entry2.config(text=str(animeresults))
     else:
         entry2.config(text="Nenhuma correspondência\nfoi encontrada.")
+
 
 
 
