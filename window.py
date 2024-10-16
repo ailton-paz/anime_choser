@@ -11,7 +11,7 @@ def btn_clicked():
 
 window = Tk()
 
-window.title("Anime Choser")
+window.title("Anime Chooser")
 
 estilos = [
     'Ação',
